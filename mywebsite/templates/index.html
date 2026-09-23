@@ -11,7 +11,7 @@
     <div class="nav">
         <h2>My Website</h2>
         <div class="links">
-        <a href="">Home</a>
+        <a href="{% url 'index' %}">Home</a>
         <a href="{% url 'about' %}">About</a>
         <a href="{% url 'services' %}">Services</a>
         <a href="{% url 'contact' %}">Contact</a>
@@ -26,7 +26,7 @@
     <div class="text">
         <h1>Welcome To My Website</h1>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, laboriosam! Magni numquam, nesciunt quisquam nostrum, dolorum mollitia laboriosam quia perferendis vitae optio non delectus veritatis modi omnis nisi quo tempore.</p>
-    <a class="bttn" href="flex_task_contact.html">Get Started</a>
+    <a class="bttn" href="{% url 'contact' %}">Get Started</a>
     </div>
 
     <div class="image">
