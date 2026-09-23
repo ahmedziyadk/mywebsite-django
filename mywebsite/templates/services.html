@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+         margin:auto;
+         margin-bottom: 0%;
+        }
+
+
+        .nav{
+            background-color: black;
+            display: flex;
+            align-items: center;
+            margin-top: 0%;
+            
+        }
+
+        .nav h2{
+            color: white;
+            margin-left: 20px;
+        }
+
+        .links{
+            display: flex;
+            margin: auto;
+            gap: 80px;
+        }
+
+        .links a{
+            text-decoration: none;
+            color: white;
+        }
+        
+        .logout{
+            background-color: rgb(108, 108, 0);
+            color: white;
+            padding: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-right: 40px;
+            border-radius: 20px;
+            border: none;
+        }
+
+        
+        .logout:hover{
+            background-color: red;
+        }
+
+
+        .headofServices{
+            text-align: center;
+        }
+
+        .services{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap:30px
+        }
+
+        .services div{
+            margin-top: 30px;
+            width: 300px;
+            box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.199);
+            padding:30px;
+            border-radius:6%;
+            transition: 0.3s;
+        }
+
+        .services div:hover{
+            box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.308);
+            transform: scale(1.05);
+        }
+
+        .srvccontct{
+            color: white;
+            /* height: 300px; */
+            margin-top: 100px;
+            text-align: center;
+            background-color: rgb(0, 0, 38);
+            padding: 100px;
+        }
+
+        .srvccontct a{
+            color: rgb(254, 253, 253);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 26px;
+            background-color: rgb(121, 121, 0);
+            padding:10px;
+            text-decoration: none;
+            border-radius: 30px;
+            margin-top: 800px;
+        }
+
+        .srvccontct a:hover{
+            background-color: rgb(161, 161, 0);
+        }
+
+
+
+
+        
+        
+
+
+
+        
+
+
+        
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <h2>My Website</h2>
+        <div class="links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+        </div>
+
+        <button class="logout">Logout</button>
+
+    </div>
+
+<div class="headofServices">
+    <h1 style="font-size: 50px;">Our Services</h1>
+    <p style="font-size: 20px;">We provide high-quality web solutions to help your business grow online.</p>
+
+    <div class="services">
+        <div>
+            <img src="https://cdn-icons-png.flaticon.com/128/1055/1055666.png" alt="">
+            <h3>Web Design</h3>
+            <p>We create modern and attractive website designs that improve user experience and engagement.</p>
+        </div>
+
+        <div>
+            <img src="https://cdn-icons-png.flaticon.com/128/7710/7710466.png" alt="">
+            <h3>Web Development</h3>
+            <p>Custom website development using latest technologies for fast and secure performance.</p>
+        </div>
+
+        <div>
+            <img src="https://cdn-icons-png.flaticon.com/128/8488/8488732.png">
+            <h3>Responsive Design</h3>
+            <p>Mobile-friendly websites that work perfectly on all devices.</p>
+        </div>
+
+        <div>
+            <img src="https://cdn-icons-png.flaticon.com/128/17109/17109631.png" alt="">
+            <h3>UI/UX Design</h3>
+            <p>Clean and professional user interface for better usability.</p>
+        </div>
+
+        <div>
+            <img src="https://cdn-icons-png.flaticon.com/128/17109/17109631.png" alt="">
+            <h3>SEO Optimisation</h3>
+            <p>Improve search engine ranking and increase website traffic.</p>
+        </div>
+
+        <div>
+            <img src="https://cdn-icons-png.flaticon.com/128/12112/12112058.png">
+            <h3>Website Maintainance</h3>
+            <p>Regular updates, bug fixing and performance monitoring.</p>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="srvccontct">
+    <h1>Need a Custom Service?</h1>
+    <h3>Contact us Today for a Free Consultation.</h3>
+    <a href="flex_task_contact.html">Get Started</a>
+</div>
+
+
+
+</body>
+</html>
